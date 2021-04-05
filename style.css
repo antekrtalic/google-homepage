@@ -4,6 +4,37 @@ body {
     width: 100%;
 }
 
+/* Navbar */
+.navbar {
+    height: 150px;
+    width: 100%;
+    
+}
+
+.menu {
+    height: 70px;
+    width: 400px;
+    border: 2px solid blue;
+    position: absolute;
+    right: 10px;
+
+}
+
+.menu, ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+/* Main div */
+
 .main {
     height: 400px;
     margin: 200px 600px;
