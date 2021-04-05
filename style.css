@@ -22,7 +22,7 @@ body {
 
 .menu, ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 ul {
@@ -30,7 +30,19 @@ ul {
 }
 
 li {
-    margin-left: 10px;
+    margin: 10px;
+}
+
+.application {
+    height: 36px;
+    width: 36px;
+    margin-top: 10px;
+    
+}
+
+button {
+    background-color: rgb(34, 101, 226);
+    
 }
 
 /* Main div */
