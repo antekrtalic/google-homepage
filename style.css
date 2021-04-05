@@ -6,7 +6,7 @@ body {
 
 /* Navbar */
 .navbar {
-    height: 150px;
+    height: 140px;
     width: 100%;
     
 }
@@ -36,9 +36,9 @@ li {
 }
 
 .application {
-    height: 36px;
-    width: 36px;
-    margin-top: 15px;
+    height: 24px;
+    width: 24px;
+    margin: 20px 15px;
     
 }
 
@@ -47,7 +47,7 @@ button {
     height: 36px;
     width: 96px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 15px;
     border-radius: 3px;
     color: white;
@@ -58,12 +58,12 @@ button {
 /* Main div */
 
 .main {
-    height: 400px;
+    height: 350px;
     margin: 200px 600px;
     width: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 5px solid black;
 
