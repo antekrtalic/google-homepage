@@ -51,7 +51,7 @@ li {
     
 }
 
-button {
+.menu > button {
     background-color: #1A73E8;
     height: 36px;
     width: 96px;
@@ -74,8 +74,6 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid black;
-
 }
 
 /* Search div */
@@ -114,6 +112,29 @@ button {
     outline: none;
 }
 
-.keyboard {
-    color: red;
+.microphone {
+    height: 25px;
+    width: 25px;
+}
+.buttons {
+    height: 80px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons > a {
+    margin: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    padding: 5px 15px;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.buttons > a:hover {
+    
 }
